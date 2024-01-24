@@ -1,0 +1,39 @@
+.contact_section{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.contact_section h1 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    width: 80%;
+}
+.contact_section p{
+    color: #5A5959;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+@media(max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .contact_section{
+        max-width: 90%;
+        margin: 0px auto;
+    }
+}
+@media(max-width:420px){
+    body{
+        overflow-x: hidden;
+    }
+    .contact_section{
+        max-width: 80%;
+        margin: 0px auto;
+    }
+}
